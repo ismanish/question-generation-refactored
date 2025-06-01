@@ -1,0 +1,25 @@
+# API Framework
+fastapi>=0.104.0
+uvicorn>=0.23.2
+pydantic>=2.4.2
+
+# AWS Services
+boto3>=1.28.68
+
+# Database
+psycopg2-binary
+pgvector
+
+# Vector Stores & Search
+opensearch-py
+llama-index-vector-stores-opensearch
+
+# Embeddings and ML
+torch
+sentence_transformers
+FlagEmbedding
+
+# Content Readers
+llama-index-readers-web
+
+# GraphRAG toolkit will be installed directly from GitHub in the Dockerfile
